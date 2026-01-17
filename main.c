@@ -1,6 +1,6 @@
 /*
  * Project: Prime Detector
- * Author: Mathias (MathiasSystem)
+ * Author: Mathias Tichota
  * License: GPLv3
  * Description: A command-line tool to check for primality using the 
  * 6k +/- 1 optimization method.
