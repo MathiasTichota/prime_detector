@@ -1,0 +1,10 @@
+# Ignore the compiled executable (assuming output name is 'prime_detector' or 'main')
+prime_detector
+main
+
+# Ignore object files (intermediate build files)
+*.o
+
+# Ignore editor swap files (common with Vim/Nano on Arch)
+*.swp
+*~
