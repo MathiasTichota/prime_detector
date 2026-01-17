@@ -1,7 +1,3 @@
-Here is a professional, concise, and mathematically rigorous README.md tailored for your repository. It explains the optimization clearly so that any mathematician or developer visiting your page will immediately grasp the value of the implementation.
-README.md
-Markdown
-
 # Prime Detector (C Implementation)
 
 A lightweight, highly optimized command-line utility for primality testing, written in C. This tool utilizes the $6k \pm 1$ optimization method to perform efficient trial division, making it a suitable educational tool and a performant utility for quick checks on standard integer types.
@@ -19,4 +15,4 @@ Consequently, all prime numbers greater than 3 must take the form of either:
 $$6k + 1 \quad \text{or} \quad 6k + 5 \quad (\equiv 6k - 1)$$
 
 ### Performance Implication
-By implementing this logic, the algorithm skips multiples of 2 and 3 automatically. I
+By implementing this logic, the algorithm skips multiples of 2 and 3 automatically. Instead of incrementing by 2 (checking all odd numbers), the loop increments by 6, checking only two candidates ($i$ and $i+2$) per iteration. This reduces the number of necessary test operations by approximately **33%** compared to standard trial division.
