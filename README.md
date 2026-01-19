@@ -1,4 +1,4 @@
-#Prime Detector (C Implementation)
+# Prime Detector (C Implementation)
 
 A lightweight, highly optimized command-line utility for primality testing, written in C. This tool utilizes the 6k +/- 1 optimization method to perform efficient trial division.
 
