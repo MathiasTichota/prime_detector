@@ -44,9 +44,11 @@ make clean
 The program accepts a single positive integer as an argument.
 
 ./main 104729
+
 Output: true
 
 ./main 104730
+
 Output: false
 
 ### Exit Codes & Streams
