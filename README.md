@@ -21,12 +21,12 @@ By implementing this logic, the algorithm skips multiples of 2 and 3 automatical
 
 The project follows standard Linux conventions. A Makefile is provided for ease of use.
 
-Prerequisites
+### Prerequisites
 Ensure you have the following installed:
 * gcc (GNU Compiler Collection)
 * make (GNU Make)
 
-Build Instructions
+### Build Instructions
 1. Navigate to the project directory.
 2. Run the make command to compile the source code with -O3 optimizations.
 
